@@ -5,6 +5,7 @@
 }
 body {
     background-color: rgb(30, 24, 24);
+    width: 100vw;
 }
 .all {
     overflow: hidden;
