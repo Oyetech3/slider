@@ -56,7 +56,7 @@ body {
     position: absolute;
     display: flex;
     left: 50%;
-    top: 80%;
+    top: 68%;
     transform: translate(-50%,-50%);
 }
 .dot .btn{
@@ -93,11 +93,15 @@ body {
         top: 45%;
     }
     
+    .slidecontainer  {
+        width: 500px;
+        
+    }
     .slidecontainer .imgcontain {
-
-        object-fit: cover;
+        width: 100%;
     }
     .slidecontainer img {
+        width: 500px;
         object-fit: cover;
     }
 }
